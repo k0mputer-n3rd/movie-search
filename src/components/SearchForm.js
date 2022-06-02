@@ -5,6 +5,8 @@
 // SearchForm.js
 // =============
 
+import React from "react";
+
 const SearchForm = () => {
   return (
     <div>
@@ -17,9 +19,11 @@ const SearchForm = () => {
             className="inputbox"
             name="Search-Field"
             type="text"
+            autoComplete="off"
             // value={search}
             // onChange={(e) => setSearch(e.target.value)}
           />
+          <button type="submit" />
         </div>
       </form>
     </div>
