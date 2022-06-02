@@ -6,6 +6,8 @@
 // =============
 
 import React from "react";
+import '../App.css';
+
 
 const SearchForm = () => {
   return (
@@ -23,7 +25,11 @@ const SearchForm = () => {
             // value={search}
             // onChange={(e) => setSearch(e.target.value)}
           />
-          <button type="submit" />
+          <button type="submit">
+            <span class="material-symbols-outlined">
+            search
+            </span>
+          </button>
         </div>
       </form>
     </div>

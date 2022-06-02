@@ -5,10 +5,12 @@
 /* HeaderFooter.js */
 /* =============== */
 
+/* google font icon for Search Bar submit button */
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0');
+
 .App {
   text-align: center;
 }
-
 
 .HeaderFooter {
   background-color: #282c34;
@@ -31,6 +33,15 @@
 
 .inputbox {
   padding-bottom: 5px;
+}
+
+.material-symbols-outlined {
+  font-size: 20px;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
 }
 
 
