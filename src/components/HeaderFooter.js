@@ -17,7 +17,7 @@ const HeaderFooter = (props) => {
         <div>k0mputer-n3rd</div>
       </div>
       {props.children}
-      <div className="Copyright"> &copy; 2022 k0mputer-n3rd </div>
+      <div className="Copyright"> &copy; 2022 k0mputer-n3rd & OceanSkys </div>
     </div>
   );
 };
