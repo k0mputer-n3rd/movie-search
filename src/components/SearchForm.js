@@ -1,13 +1,14 @@
 // React Movie Search Project
-// Allen P.
-// 05/31/2022
+// Allen P. & Jeremy T.
+// 06/08/2022
 
 // SearchForm.js
 // =============
 
-import React from "react";
-import '../App.css';
+// use searchValue for value, setSearchValue on change/submit
 
+import React from "react";
+import "../App.css";
 
 const SearchForm = () => {
   return (
@@ -26,9 +27,7 @@ const SearchForm = () => {
             // onChange={(e) => setSearch(e.target.value)}
           />
           <button type="submit">
-            <span class="material-symbols-outlined">
-            search
-            </span>
+            <span class="material-symbols-outlined">search</span>
           </button>
         </div>
       </form>
