@@ -10,7 +10,8 @@
 import React from "react";
 import "../App.css";
 
-const SearchForm = () => {
+const SearchForm = (props) => {
+
   return (
     <div>
       <form>
@@ -23,8 +24,8 @@ const SearchForm = () => {
             name="Search-Field"
             type="text"
             autoComplete="off"
-            // value={search}
-            // onChange={(e) => setSearch(e.target.value)}
+            value={props.searchValue}
+            onChange={(e) => props.setSearchValue(e.target.value)}
           />
           <button type="submit">
             <span class="material-symbols-outlined">search</span>
